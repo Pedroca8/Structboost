@@ -29,3 +29,6 @@ Debugging: Uso do DevTools para ajustes em tempo real.
 🌐 Acesso Online
 O projeto está hospedado no GitHub Pages:
 🔗 https://pedroca8.github.io/Structboost/
+
+🌐 Link de projeto 
+🔗 https://www.figma.com/design/W6LAZ1sDyDYS1nakb5vVRa/Struct-Boost-%7C-Codeboost?m=auto&t=l5CtRJje3Gbxg7pE-6
