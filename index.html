@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Structboost</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="./css/grid.css">
@@ -39,7 +40,7 @@
 
     <section class="s-hero">
         <div class="container">
-            <div class="text">
+            <div class="text" data-aos="fade-right">
                 <h1>Front-end decomplicado e direto ao ponto!</h1>
                 <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
                 <button class="btn-primary lg">
@@ -48,15 +49,15 @@
                 <img src="./img/Arrow 6.svg" class="arrow" alt="">
             </div>
         </div>
-        <img src="img/Dekstop.svg" class="ilustra" alt="">
+        <img src="img/Dekstop.svg" class="ilustra" alt="" data-aos="fade-up" data-aos-delay="200">
         <img src="./img/Mobile.svg" class="ilustra-mobile" alt="mobile">
     </section>
 
     <section class="s-digital">
         <div class="container">
-            <h3>Transformando Ideias em Realidade Digital!</h3>
+            <h3 data-aos="fade-right">Transformando Ideias em Realidade Digital!</h3>
             <ul>
-                <li>
+                <li data-aos="fade-right">
                     <div class="item-digital">
                         <div class="icon">
                             <img src="./img/Face id.svg" alt="Icone de um celular">
@@ -68,7 +69,7 @@
                         </div> 
                    </div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                     <div class="item-digital">
                         <div class="icon">
                             <img src="./img/Laptop, Mobile.svg" alt="Icone de um celular">
@@ -79,7 +80,7 @@
                         </div> 
                    </div>
                 </li>
-                <li>
+                <li data-aos="fade-left">
                     <div class="item-digital">
                         <div class="icon">
                             <img src="./img/search-graph.svg" alt="Icone de um celular">
@@ -96,7 +97,7 @@
     
     <section class="s-art-front">
         <div class="container">
-            <div class="tatle-text">
+            <div class="tatle-text" data-aos="fade-right">
                 <div class="left">
                     <h3>Domine a Arte do Front-End</h3>
                     <p>Prepare-se para criar interfaces incríves e funcionais para a  web com este curso completo de front-end.</p>
@@ -106,7 +107,7 @@
                 </div>
             </div>
             <div class="all">
-                <div class="card-post">
+                <div class="card-post" data-aos="flip-left">
                     <span class="tag">Fundamentos</span>
                     <div class="imagem">
                         <img src="./img/Vector.svg" alt="foto">
@@ -116,7 +117,7 @@
                         <p>Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.</p>
                     </div>
                    </div>
-                   <div class="card-post">
+                   <div class="card-post" data-aos="flip-left">
                     <span class="tag">Fundamentos</span>
                     <div class="imagem">
                         <img src="./img/Vector.svg" alt="foto">
@@ -126,7 +127,7 @@
                         <p>Explore os recursos avançados do CSS3 para criar layouts responsivos, animações incríveis e designs atrativos.</p>
                     </div>
                    </div>
-                   <div class="card-post">
+                   <div class="card-post" data-aos="flip-left">
                     <span class="tag">Fundamentos</span>
                     <div class="imagem">
                         <img src="./img/Vector.svg" alt="foto">
@@ -136,7 +137,7 @@
                         <p>Aprenda a programar com Javascript moderno e torne suas páginas interativas e dinâmicas, proporcionando uma experiência única.</p>
                     </div>
                    </div>
-                   <div class="card-post">
+                   <div class="card-post" data-aos="flip-left">
                     <span class="tag">Fundamentos</span>
                     <div class="imagem">
                         <img src="./img/Vector.svg" alt="foto">
@@ -146,7 +147,7 @@
                         <p>Descubra como utilizar frameworks populares como React, Angular e Vue.js para criar aplicações web completas e eficientes.</p>
                     </div>
                    </div>
-                   <div class="card-post">
+                   <div class="card-post" data-aos="flip-left">
                     <span class="tag">Fundamentos</span>
                     <div class="imagem">
                         <img src="./img/Vector.svg" alt="foto">
@@ -161,7 +162,7 @@
     </section>
 
     <section class="s-newsletter">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-up">
             <h2>Front-end descomplicado e direto ao ponto!</h2>
             <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
             <button class="btn-primary white lg">
@@ -249,5 +250,13 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            disable: 'mobile'
+
+        })
+    </script>
 </body>
 </html>

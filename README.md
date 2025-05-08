@@ -26,6 +26,8 @@ Git Flow: Versionamento eficiente com commits semânticos.
 
 Debugging: Uso do DevTools para ajustes em tempo real.
 
+Animação: Utilização de @keyframes para efeitos de transição.
+
 🌐 Acesso Online
 O projeto está hospedado no GitHub Pages:
 🔗 https://pedroca8.github.io/Structboost/
